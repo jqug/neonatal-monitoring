@@ -51,6 +51,8 @@ Experiment with the system by editing the files in the
 
 See `doc/overview.pdf` for high-level details of the code.
 
+![Screenshot of Matlab demo](https://raw.githubusercontent.com/jqug/neonatal-monitoring/main/img/matlab-demo-screenshot.png)
+
 ## Packages required
 
 Bayes Net Toolbox: http://bnt.sourceforge.net/
