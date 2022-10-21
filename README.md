@@ -36,7 +36,7 @@ struct array `data` has two fields, `raw` and `preprocessed`, each of which is a
 cell array with elements representing each of the the 15 babies. These elements
 are also struct arrays, with fields containing the raw physiological data for each baby, and other information such as gestation and anonymised identifiers.
 
-The struct array intervals contains annotations provided by the clinical
+The struct array `intervals` contains annotations provided by the clinical
 experts. For example, `intervals.BloodSample{3}` contains an array of times
 for which a blood sample was thought to have occurred for baby 3. This is an
 n × 2 matrix in which each row represents `[start index stop index]` for a
