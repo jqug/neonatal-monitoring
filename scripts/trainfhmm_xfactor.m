@@ -1,0 +1,1 @@
+fhmm_factor = {fhmm_mu xi*fhmm_cov 1:length(obschannels) .5};
