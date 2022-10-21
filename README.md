@@ -15,9 +15,12 @@ of clinically significant novelty.
 
 Data in this demo comes from 15 babies who were treated in
 the Neonatal Intensive Care Unit at the Royal Infirmary of
-Edinburgh, UK.
+Edinburgh, UK. For each baby, there is a 24 hour sequence
+of vital signs data taken at 1-second intervals, including
+heart rate, blood pressures, saturation of gases in the
+blood and temperatures.
 
-Details about the model and data can be found in
+Details about the model and data can be found in:
 
 * J.A. Quinn, C.K.I. Williams and
 N. McIntosh, *Factorial Switching Linear Dynamical Systems 
