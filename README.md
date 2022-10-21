@@ -1,12 +1,11 @@
-```
-************************************************************
-Matlab Baby Monitoring Demo                            
-v0.9.3 (12 Aug 2008)
-Author: John Quinn
-************************************************************
-```
 
-# Introduction
+# Bayesian Neonatal Monitoring - Matlab Demo and Dataset  
+
+v0.9.3 (12 Aug 2008)
+
+Author: John Quinn
+
+## Introduction
 
 This demo implements a factorial dynamical Bayesian network
 and applies it to physiological monitoring data from babies
@@ -24,10 +23,10 @@ Details about the model and data can be found in
 N. McIntosh, *Factorial Switching Linear Dynamical Systems 
 applied to Condition Monitoring in Neonatal Intensive Care*,
 IEEE Transactions on Pattern Analysis and Machine 
-Intelligence 31(9), 2008. [pdf](https://jquinn.air.ug/files/Quinn_2008_TPAMI.pdf)
-* J.A. Quinn, *Bayesian Condition Monitoring in Neonatal Intensive Care*, PhD thesis, University of Edinburgh, 2007. [pdf](https://jquinn.air.ug/files/Quinn_2007_Thesis.pdf)
+Intelligence 31(9), 2008. [[pdf]](https://jquinn.air.ug/files/Quinn_2008_TPAMI.pdf)
+* J.A. Quinn, *Bayesian Condition Monitoring in Neonatal Intensive Care*, PhD thesis, University of Edinburgh, 2007. [[pdf]](https://jquinn.air.ug/files/Quinn_2007_Thesis.pdf)
 
-# Data format
+## Data format
 
 The data used in the experiments is contained in the file `data/15days.mat`. The
 struct array `data` has two fields, `raw` and `preprocessed`, each of which is a
@@ -40,17 +39,16 @@ for which a blood sample was thought to have occurred for baby 3. This is an
 n × 2 matrix in which each row represents `[start index stop index]` for a
 particular episode of blood sampling. Indices are relative to the start of the 24 hour monitoring period.
 
-# How to run the Matlab demo
+## How to run the Matlab demo
 
-To run the demo, cd to directory babymonitoringdemo.
-Start Matlab and run the command 'chooseexperiment'.
+Start Matlab and run the command `chooseexperiment`.
 
 Experiment with the system by editing the files in the
-'settings' directory.
+`settings` directory.
 
-See doc/overview.pdf for high-level details of the code.
+See `doc/overview.pdf` for high-level details of the code.
 
-# Packages required
+## Packages required
 
 Bayes Net Toolbox: http://bnt.sourceforge.net/
 (for the 'learn\_kalman' function)
