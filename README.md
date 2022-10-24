@@ -39,7 +39,7 @@ are also struct arrays, with fields containing the raw physiological data for ea
 The struct array `intervals` contains annotations provided by the clinical
 experts. For example, `intervals.BloodSample{3}` contains an array of times
 for which a blood sample was thought to have occurred for baby 3. This is an
-n × 2 matrix in which each row represents `[start index stop index]` for a
+n × 2 matrix in which each row represents `[start_index, stop_index]` for a
 particular episode of blood sampling. Indices are relative to the start of the 24 hour monitoring period.
 
 ## How to run the Matlab demo
