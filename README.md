@@ -42,6 +42,10 @@ for which a blood sample was thought to have occurred for baby 3. This is an
 n × 2 matrix in which each row represents `[start_index, stop_index]` for a
 particular episode of blood sampling. Indices are relative to the start of the 24 hour monitoring period.
 
+<img src="https://raw.githubusercontent.com/jqug/neonatal-monitoring/main/img/nicu-sensors.png" alt="Diagram of neonatal sensors" width="400"/>
+
+*Probes used to collect vital signs data from an infant in intensive care: 1) three-lead ECG, 2) arterial line (connected to blood pressure transducer), 3) pulse oximeter, 4) core temperature probe (underneath shoulder blades), 5) peripheral temperature probe, 6) transcutaneous probe.*
+
 ## How to run the Matlab demo
 
 Start Matlab and run the command `chooseexperiment`.
